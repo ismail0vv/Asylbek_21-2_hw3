@@ -80,13 +80,14 @@ class SmartPhone(Computer, Phone):
     def __str__(self):
         return Computer.__str__(self) + ' ' + Phone.__str__(self)
 
+
 # Computer objects
 # Сpu измеряется в модели процессора а Memory в гигабайтах
 asus = Computer(10080, 980)
 # Phone objects
 nokia = Phone(['Beeline'])
 # SmartPhone objects
-poko = SmartPhone(9800, 512, ['MegaCom','O! NurTelecom'])
+poko = SmartPhone(9800, 512, ['MegaCom', 'O! NurTelecom'])
 iphone = SmartPhone(12000, 256, ['Starlink'])
 
 print(asus)
